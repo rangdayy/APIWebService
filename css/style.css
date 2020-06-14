@@ -1,0 +1,147 @@
+input{
+  border-radius: 20px;
+  border: none;
+  border: solid 1px rgb(155, 155, 155);
+  height: 40px;
+  padding-left: 10px !important;
+  margin-bottom: 3% ;
+  
+}
+
+
+.user{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  margin-top: 200px;
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+
+.formsearch{
+  border-radius: 30px;
+  margin-top: 0%;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead1 {
+  position: relative;
+  width: 100%;
+  height: 0%;
+
+  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+@media (min-width: 992px) {
+  
+
+
+
+
+
+.masthead::after{
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%);
+  
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 15pt;
+  color: white;
+}
+
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 15pt;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+
+
+
+
+.text-black{
+  text-align: justify;
+}
+
+
+
+
+@media (min-width: 992px) {
+  
+
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #c49b63 !important;
+}
+
+.text-primary {
+  color: #c49b63 !important;
+}
+
+
+
+
+
+
+textarea{
+  border-radius: 20px;
+  border: none;
+  border: solid 1px rgb(155, 155, 155);
+
+  padding-left: 10 px;
+  margin-bottom: 3% ;
+}
+
+
+
+.center-cropped {
+    object-fit: cover; 
+    object-position: center; 
+    height: 190px;
+    width: 107%;
+    filter: brightness(50%);
+}
+
+.centered {
+    position: absolute;
+    top: 50;
+    left: 35%;
+    transform: translate(90%, -200%);
+    color: white;
+    
+
+}
+}
+}
