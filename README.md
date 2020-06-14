@@ -1,8 +1,8 @@
 # APIWebService
-
 API yang digunakan yaitu API Youtube, Deezer, dan Lyrics.ovh untuk pencarian dan lirik serta informasi terkait lagu
-CONTOH PENCARIAN LAGU 
-====================================
+
+CONTOH PENCARIAN LAGU
+
 Artist			Justin bieber
 Judul		yummy
 
